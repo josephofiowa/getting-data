@@ -14,7 +14,7 @@ At the end of this session, you will:
 
 ### Introduction
 
-Our intro deck is in the assets folder.
+Our intro deck is [here](./assets/slides/getting-data-DAT.pdf)
 
 ### HTTP
 
