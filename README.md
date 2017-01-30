@@ -24,13 +24,13 @@ Our discussion of how HTTP works is [here](/HTTP-protocol.md).
 
 Visit the API we'll be using here: www.omdbapi.com
 
-The .py file (that we used in Spyder) to make requests and use our very first API (gasp!) is available [here](.code/api-usage-example.py)
+The .py file (that we used in Spyder) to make requests and use our very first API (gasp!) is available [here](./code/api-usage-example.py)
 
 ### Scraping
 
 We'll now discuss scraping.
 
-Our first example page is [this](/code/example.html) page. We'll use [this](/code/webscraping.py) script in Spyder.
+Our first example page is [this](./code/example.html) page. We'll use [this](./code/webscraping.py) script in Spyder.
 
 ### Live Scraping
 
@@ -38,7 +38,7 @@ The moment we've (I've) been waiting for: live scraping.
 
 http://www.opentable.com/washington-dc-restaurant-listings
 
-Let's use [this](/code/webscraping-starter.ipynb) notebook. We're going to stop before the Selenium portion, given time constraints. I welcome you to complete the remainder of the notebook independently. :)
+Let's use [this](./code/webscraping-starter.ipynb) notebook. We're going to stop before the Selenium portion, given time constraints. I welcome you to complete the remainder of the notebook independently. :)
 
 NOTE: when scraping websites, not all elements are static. We need a solution. We may not have time to cover headless browsers, but I will leave this Jupyter notebook available for you.
 
