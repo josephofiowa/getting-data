@@ -34,7 +34,7 @@ r.json()
 r.json()['Year']
 
 # what happens if the movie name is not recognized?
-r = requests.get('http://www.omdbapi.com/?t=blahblahblah&r=json&type=movie')
+r = requests.get('http://www.omdbapi.com/?t=tyler whirty is a cool guy&r=json&type=movie')
 r.status_code
 r.json()
 
@@ -66,3 +66,13 @@ assert(len(top_movies) == len(years))
 
 # save that list as a new column
 top_movies['year'] = years
+
+top_movies.head()
+
+# enumerate in class example
+years = []
+for position, title in enumerate(top_movies.title):
+    year = get_movie_year(title)
+    years.append(year)
+    sleep(1)
+    print 'Completed ', year, position
