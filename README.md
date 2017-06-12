@@ -26,6 +26,11 @@ Visit the API we'll be using here: www.omdbapi.com
 
 The .py file (that we used in Spyder) to make requests and use our very first API (gasp!) is available [here](./code/api-usage-example.py)
 
+#### OR
+
+Chuck Norris API: [link](https://api.chucknorris.io/jokes/random)
+
+
 ### Scraping
 
 We'll now discuss scraping.
