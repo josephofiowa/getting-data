@@ -68,6 +68,6 @@ For this part of the lesson, we're going to want to use a few tools:
 - Beginner [Jupyter Notebooks](https://github.com/jdwittenauer/ipython-notebooks) to learn more Python
 - [Blog post on json with pandas](https://www.dataquest.io/blog/using-json-data-in-pandas/)
 - [API article Wikipedia](https://en.wikipedia.org/wiki/Application_programming_interface)
-- [Programmable web](http://www.programmableweb.com/)
+- [Programmable web](http://www.programmableweb.com/) `ZRBHozQuELDX36PqvNQsOSCrvurx4ULHZ4hgArho`
 - Please also download [Anaconda with Python 2.7 (not 3.5)](https://www.continuum.io/)
 - A [discussion](https://medium.com/ggv-capital/a-tale-of-2-api-platforms-39f8dfd77436#.92bwnnahv) on APIs used properly for development (Slack) vs improperly (Twitter)
