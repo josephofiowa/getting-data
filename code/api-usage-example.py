@@ -13,13 +13,18 @@ How to interact with a REST API:
 
 # read IMDb data into a DataFrame: we want a year column!
 import pandas as pd
+import requests 
+api_key = ''
 # movies = pd.read_csv('imdb_1000.csv')
 movies = pd.read_csv('https://raw.githubusercontent.com/josephofiowa/GA-DSI/master/intro-to-apis-python/assets/data/imdb_1000.csv')
+
+# relative path?
+movies = pd.read_csv('')
+
 movies.head()
 
 # use requests library to interact with a URL
-import requests
-r = requests.get('http://www.omdbapi.com/?t=the shawshank redemption&r=json&type=movie')
+r = requests.get('http://www.omdbapi.com/?t=the shawshank redemption&r=json&type=movie&apikey=' + api_key)
 
 # check the status: 200 means success, 4xx means error
 r.status_code
@@ -76,3 +81,15 @@ for position, title in enumerate(top_movies.title):
     years.append(year)
     sleep(1)
     print 'Completed ', year, position
+
+# churck norris business
+import requests
+resp = requests.get('https://api.chucknorris.io/jokes/random')
+resp.status_code
+resp.json()['value']
+
+from time import sleep
+
+for x in range(1,11):
+    resp = requests.get('https://api.chucknorris.io/jokes/random')
+    print(resp.json()['value'])
